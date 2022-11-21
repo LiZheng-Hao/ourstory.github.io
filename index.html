@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>悠閒的苗栗山城</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+    
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      
+    </style>
+
+    
+  </head>
+  <body style="background-color:rgb(228, 233, 237)"><!--背景顏色-->
+
+<header>
+  <div class="collapse bg-light" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4"><!--網格框架-->
+          <h4 class="text-info"><!--顏色--><strong>苗栗</strong></h4><!--上橫選單標題1-->
+          <p class="text-white"><!--顏色-->
+            <strong>苗栗在道卡斯族語稱「Bari」渡海來台的漢人稱之為「貓狸」山貓之意，後為取其音雅而改稱「苗栗」。<br>
+            </strong></p>
+          <!--上橫選單內容1-->
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-info"><!--顏色--><strong>相關連結</strong></h4>
+          <ul class="list-unstyled">
+            <li><a href="https://www.miaoli.gov.tw/" target="_blank" ; class="text-white"><!--顏色--><strong>苗栗縣政府</strong></a></li>
+            <li><a href="https://www.mdais.gov.tw/ws.php?id=3009" target="_blank" class="text-white"><!--顏色--><strong>苗栗縣各鄉鎮農會</strong></a></li>
+            <li><a href="https://www.facebook.com/groups/miaoli.map/?ref=share" target="_blank" class="text-white"><!--顏色--><strong>推薦FB社團</strong></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-info shadow-sm">
+    <div class="container">
+      <a href="https://miaolitravel.net/" target="_blank" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>悠閒的苗栗山城</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light" style="font-size: 70px;"><em><b>苗栗旅遊景點介紹</b></em></h1>
+        <p class="lead text-muted">我們統整了一些苗栗的特色或觀光景點，讓大家透過這些影像提升對於苗栗的好奇，藉此讓大家更認識苗栗！擔心坐車？擔心住宿？沒問題，點擊“心動不如馬上行動”來了解更多！</p><!--網站介紹-->
+        <p>
+          <a href="https://www.mlc.gov.tw/" target="_blank" class="btn btn-primary my-2" input type="button" style="width:180px;height:40px " >了解更多</a><!--按鈕1-->
+          <a href="../心動不如馬上行動/index.html" class="btn btn-secondary my-2" input type="button" style="width:180px;height:40px ">心動不如馬上行動</a><!--按鈕2-->
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-white"><!--下橫列顏色-->
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            
+
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">龍騰斷橋</p>
+              <img src="1.jpg" width="100%" height="100%" fill="#55595c"></img> 
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                此地點為三義鄉龍騰斷橋。龍騰斷橋建於西元1907年，為當時火車必經之路。由於關刀山大地震的緣故而導致橋梁毀損，不堪使用，而又在另闢新路。其橋梁前後方皆由紅磚所砌之橋墩來做為基點，中間部分是使用鋼梁來鋪設鐵軌，目前只剩下前後橋墩還保留著，其他部分已被震垮或拆除。
+              </p>
+          
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001110&id=C100_342" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/sV4yDfqv6tzxUzoV6" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">英才書院</p>
+              <img src="2.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                英才書院位於後龍鎮，是一座以閩南風格為主的廟宇，其當中還附有文昌祠、孔子廟等等，並且還可以讓人租借服裝來拍照。在準備大考的前些日子都會有眾多的學生前往，祈福自己可以得到好成績。當中還有靜態的展品可以參觀，不過不是閩南風格的展品，而是客家風格的展品，所以前往參觀時還需注意下想參觀的風格。
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://miaolitravel.net/article.aspx?sNo=04006930" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/13YnchjwAoTvN3B16" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            
+
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">客家圓樓</p>
+              <img src="3.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                此地點為後龍鎮客家圓樓。其建築特色始於中國福建、廣東省，當時因防禦與生產需要，所以創建了這種造型風格的建築。由於當時圓樓大多都是客家人所建，所以就普遍通稱為客家圓樓或圍樓。因苗栗也有眾多客家人，所以當年縣長設立了臺灣客家八音戲曲推廣中心-苗栗客家圓樓給予大家參訪。
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://miaolitravel.net/article.aspx?sNo=04006607" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/X1zFVDt5N8tfYXft7" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">鯉魚潭水庫</p>
+              <img src="4.jpg" width="100%" height="100%" fill="#55595c"></img>
+			        <br>
+			        <br>
+              <p style="font-family:cursive";>
+                鯉魚潭水庫橫跨大湖、三義、卓蘭三個鄉鎮。鯉魚潭水庫也是全台唯一使用鋸齒堰溢洪道的水庫，其功能不只有儲水，也有灌溉、發電、防洪等功能。並且也供應大台中地區的用水。在開發作為水庫之前，原是台三線經過之處，並且也有少許居民居住，在枯水期時還能看到從前的土地公廟浮現出來。
+              </p>
+              <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://miaolitravel.net/article.aspx?sNo=04007298" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/VftTv933cMiJ1Biu8" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">苑裡情人橋</p>
+              <img src="5.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                苑港彩虹橋又稱為苑裡情人橋，是一座位於苑裡港旁邊的橋，為苑裡知名的景點之一。彩虹橋，可說是苑裡漁港最熱門的觀光景點，除了欣賞夕陽以外，晚上還能見到LED燈亮起，會不停轉換顏色，不管從哪個角度看，彩虹橋都會有不同的樣貌。看那紅色拱頂像顆愛心，而橋身兩側的護欄有著藍色裝飾及海鳥展翅造型，呼應海洋主題，也讓這座大橋在空曠的荒漠中顯得格外繽紛。
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://miaolitravel.net/article.aspx?sNo=04004491" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/c791ngHZXhhqW5TC8" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">崎頂子母隧道</p>
+              <img src="6.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                此地點為竹南鎮崎頂子母隧道。此隧道建於1928年，由日本人在海線所搭建的兩線磚造隧道，因1978年海線電氣化，所以就不再使用其隧道，而改為觀光景點。崎頂子母隧道也叫崎頂1、2號隧道，是全苗栗縣唯一的相連雙線通行隧道，也是子母隧道的名稱由來。因內部空間大，所以在二戰時也當作防空洞使用。
+              </p>
+              <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://miaolitravel.net/article.aspx?sNo=04004529" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/Ld2wPJkjsTmp2FNA8" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">協雲宮</p>
+              <img src="7.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                協雲宮位於獅潭鄉，是苗栗的著名賞櫻花勝地，由於該地種植了上千棵的山櫻花，所以在1~2月份時可以欣賞到非常壯麗的櫻花美景。協雲宮也規劃了櫻花步道與涼亭，可以走進步道賞花，也可在涼亭乘涼，美不勝哉！該地停車場位置眾多，所以可以不用擔心沒有地方停車的問題，但由於海拔高度較高，道路較顛簸並細小，所以在前往的過程中還需多加小心。
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.stan.gov.tw/News_Content.aspx?n=3822&s=139335" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/eNVbe9UdNdQbDSeTA" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            
+
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">雙峰山</p>
+              <img src="8.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                雙峰山位於銅鑼鄉，從銅鑼市區不到5分鐘就可以抵達，並且該廟宇不論晚上或白天會非常的美麗，往下俯瞰可以看到國道一號、西部縱貫鐵路、新竹科學園區銅鑼園區。看見像是玩具車的區間車從山巒之間穿越，並可與旁邊的稻田、杭菊形成動與靜的美。在夜間的時候可以看見國道一號繁忙的車輛，空氣品質良好時要看見台灣海峽上的船隻都不成問題。
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.tongluo.gov.tw/News_Content.aspx?n=7285&s=131034" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/uvcjEtw7VnmPs2HT7" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+
+
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">新東大橋</p>
+              <img src="9.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <p style="font-family:cursive";>
+			        <br>			  
+                新東大橋位於苗栗市，跨越後龍溪及台72線快速道路並連接公館鄉。建立於西元1997年，為全台灣第一座斜張橋，並且在西元2008年時，苗栗縣政府在其斜張構造上加裝數千顆LED燈泡，讓其成為夜晚中識別苗栗的一大助力，但可惜的是，由於長年風吹日曬與受到颱風侵擾，讓眾多設備損壞，以至於近年無法亮燈。
+              </p>
+              <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://miaolitravel.net/article.aspx?sNo=04007184" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/ZcSF6K4oLypRKydt5" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">內社川鐵橋</p>
+              <img src="10.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                內社川鐵橋位於鯉魚潭水庫後池堰上方，原第一代磚造橋墩橋被關刀山大地震震毀，目前所見為第二代於1938年所建之水泥橋墩鐵橋。先前都是無法近距離觀看的，現在由於舊山縣鐵道自行車活動，如果選擇C路線，就可以走入隧道並近距離觀看鐵橋，但為了安全考量仍無法開放鐵道自行車或行人通行。如果想實際走訪可至舊山線鐵道自行車官網購票！
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.oml-railbike.com/index.php" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/16ypedjMzMDjeVUe8" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">南庄桂花巷</p>
+              <img src="11.jpg" width="100%" height="100%" fill="#55595c"></img>
+			        <br>
+			        <br>
+              <p style="font-family:cursive";>
+                此地點為南庄鄉桂花巷。南庄鄉是一個有著客家與賽夏族文化的鄉鎮，其中著名景點又以南庄桂花巷為遊客所好。南庄桂花巷的巷道較狹窄，但為保持傳統建築特色所以沒有進行拓寬，巷道中皆以石磚鋪設，旁邊都有販售各式桂花零食、茶包等商家，都會非常熱情招待遊客們。
+              </p>
+              <br>              
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001110&id=A12-00259" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/UJwArc737pzVFwPE8" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            
+            <div class="card-body">
+              <p class="card-text" style="padding: 5px; margin: 0px  ; background-color: #5182A6; border: 1px solid black; text-align:center;font-size:30px;color: white; ">後龍好望角</p>
+              <img src="12.jpg" width="100%" height="100%" fill="#55595c"></img>
+              <br>
+              <br>
+              <p style="font-family:cursive";>
+                半天寮好望角位於苗栗縣後龍鎮濱海山丘制高處，是觀海、日落及風車的最佳景點。靠近海邊的好望角由於沒有障礙物阻隔又常年海風吹襲，所以是適合風力發電的好場所。好望角廣場視野遼闊，天氣好時從觀景台往下看，海岸線上的巨大風力發電機與海洋和天空交織的風景十分美麗，偶而還可以捕捉到火車經過的畫面，是個非常適合放鬆的地方。
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://miaolitravel.net/article.aspx?sNo=04005099" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">詳細資訊</a>
+                  <a href="https://goo.gl/maps/K82zqdXT5WR3jnTT9" target="_blank" class="btn btn-sm btn-outline-secondary"class="btn btn-sm btn-outline-secondary">地圖連結</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<iframe width="1470" height="530" src="https://www.youtube.com/embed/-c4gQbMJg_I" title="2022『飛勁苗栗 · 啟動心旅程』空拍攝影及微電影大賽－「黃琇苓陳宗言」－「行尞貓裏」" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1" style="font-size: 20px; color:rgb(19, 75, 120);"><strong>苗栗精選推薦--卓也小屋<br>一同體驗藍染及客家文化！</strong>
+      <br>
+      <a href="https://www.joye.com.tw/index/" target="_blank" ; class="text-white"><strong>卓也小屋</strong></a>
+      <br>
+      <br>
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">我們的網頁配色參考客家藍衫（藍染）的顏色。藍染是使用「藍草植物」搗成汁染色的染布技術，最早可追述回荷治時期，<br>荷蘭人從福建等地引進木藍種子栽種希望發展紡織等技術，可惜最後因成本不符而放棄。鄭氏時期有「染人」的職官負責這<br>方面的管理，並由漳泉兩地的人引進藍草，延續了藍染的技術。直至清領時期臺灣掌握種植木藍、馬藍的技術，而大量出口<br>藍染至福建江浙一帶，且當時各地山區接種滿了藍草，而山區多為客家人的居住地，並將此種技法用於日常服飾中流傳至今<br>，使的藍染變成客家人的特色。</p>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
